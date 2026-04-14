@@ -1,0 +1,82 @@
+# Commit Message 模板
+
+## 基本格式
+{type}({scope}): {description}
+
+## 示例集合
+
+### 功能开发
+feat(button): add new button variant
+feat(api): implement user authentication
+feat(form): add validation rules
+
+### Bug 修复
+fix(api): resolve timeout issue
+fix(form): validate required fields
+fix(layout): fix mobile responsive
+
+### 代码重构
+refactor(component): improve code structure
+refactor(service): optimize performance
+refactor(utils): clean up helper functions
+
+### 文档更新
+docs(api): update interface documentation
+docs(readme): add setup instructions
+docs(component): add usage examples
+
+### 样式调整
+style(theme): update color palette
+style(layout): improve spacing
+style(component): update button styles
+
+### 测试相关
+test(button): add unit tests
+test(api): add integration tests
+test(utils): add test coverage
+
+### 构建部署
+chore(build): update webpack config
+chore(ci): update GitHub Actions
+chore(deploy): update deployment script
+
+## 类型说明
+
+| 类型 | 前缀 | 说明 |
+|------|------|------|
+| 功能 | feat | 新功能开发 |
+| 修复 | fix | Bug 修复 |
+| 重构 | refactor | 代码重构 |
+| 文档 | docs | 文档更新 |
+| 样式 | style | 样式调整 |
+| 测试 | test | 测试相关 |
+| 杂项 | chore | 构建部署 |
+
+## 最佳实践
+
+### 1. 描述简洁
+- 使用动词开头
+- 保持简短明确
+- 避免冗余信息
+
+### 2. 范围准确
+- 基于文件路径
+- 反映实际变更
+- 保持一致性
+
+### 3. 类型正确
+- 准确分类变更
+- 符合团队规范
+- 便于版本管理
+
+## 注意事项
+
+1. **英文小写**：全部使用英文小写字母
+2. **避免句号**：描述末尾不要加句号
+3. **长度限制**：保持在 72 字符以内
+4. **团队规范**：遵循团队统一规范
+
+## 参考资料
+
+- [Conventional Commits](https://www.conventionalcommits.org/)
+- [Git Commit Best Practices](https://chris.beams.io/posts/git-commit/)
